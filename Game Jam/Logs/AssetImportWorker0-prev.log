@@ -1,0 +1,1483 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/faisa/Game Jam
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53920
+Successfully changed project path to: C:/Users/faisa/Game Jam
+C:/Users/faisa/Game Jam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4392] Host "[IP] 192.168.0.143 [Port] 0 [Flags] 2 [Guid] 124346703 [EditorId] 124346703 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PPVD3E0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4392] Host "[IP] 192.168.0.143 [Port] 0 [Flags] 2 [Guid] 124346703 [EditorId] 124346703 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PPVD3E0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 101.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/faisa/Game Jam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c06)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004316 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 104.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (638ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007633 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (84.5 KB). Loaded Objects now: 3825.
+Memory consumption went from 118.5 MB to 118.4 MB.
+Total: 3.112400 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.180900 ms MarkObjects: 2.573900 ms  DeleteObjects: 0.087500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 428637.246221 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/Scene
+  artifactKey: Guid(1d4ddc8cb3190b749bc2878cae95700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/Scene using Guid(1d4ddc8cb3190b749bc2878cae95700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc21309c03ff1308db874c389951845') in 0.009508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Wooden GUI  Free
+  artifactKey: Guid(0bd3db2e7821ffc47bbca681363e8a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free using Guid(0bd3db2e7821ffc47bbca681363e8a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19de0bd802ef8533fc1cc2a26bcfbc8a') in 0.006049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.300073 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A
+  artifactKey: Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A using Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b524c97d082d39d69040c1ad085ac59a') in 0.006129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032715 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e4efed42e3d0811d48a550889521e6') in 0.268364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
+  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3fd1da4cbb6ff487898c33694fab48') in 0.022620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
+  artifactKey: Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png using Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a2e6aced606bee354e5c1c585da411') in 0.025618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
+  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6552e63d53ec958d3ce9f8fc45442f3') in 0.066524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466d49670cfd8e026966d2b77e198ac9') in 0.014733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
+  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7078a1a4c762216d2bc7c858e3d1b42d') in 0.012147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
+  artifactKey: Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png using Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b029f60570863fdb9290b182ed42b8') in 0.015628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
+  artifactKey: Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png using Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3fa53310f989e738efa74655adbb98') in 0.032170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f133912b65c728fbc7511311f953a2') in 0.150015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
+  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab32f01fd9fc01aa575430471335680b') in 0.013008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
+  artifactKey: Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png using Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7acfef62cc6d00f4d9026366222bc1') in 0.012868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
+  artifactKey: Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png using Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93412dc99fe54a60b4e37580e2b4db6a') in 0.011909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
+  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739b66ae847c58677c010f218aa2b8e2') in 0.015091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
+  artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5588a9b73c5fc0b4246e6d1ce9308daf') in 0.012472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
+  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8165110b081cdaddf0444d56ce685e72') in 0.011344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
+  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63b667058b8e8af6101bc7483e2bbf6') in 0.011440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
+  artifactKey: Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png using Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc48df5883ba157590e97f3a905a2b5') in 0.026676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eab1867c4e332774c0811458abd3f3d') in 0.021238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
+  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d426ce64869e88c446554cc56b3ce9c') in 0.014581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
+  artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e49819b7684e3345726a23c285f3f3e') in 0.012493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
+  artifactKey: Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png using Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf25f2ef98ce68ef9c249a6e07e4b73') in 0.035176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
+  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cead090c38e26cc276706141c032fe2b') in 0.044012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
+  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b50fe9567d3d07c9659f8f05b5d19ac') in 0.018612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cb0df7d0eac621502b65ceabdbdfe4') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
+  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff5ee4875118611ffb14b150559810d') in 0.036627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
+  artifactKey: Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png using Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0fe71e73bdaad11aed74c9aa683443') in 0.011093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
+  artifactKey: Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png using Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e01889f664f9ec5a34fd6db54976bd') in 0.032382 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036778 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (892ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.8 KB). Loaded Objects now: 3875.
+Memory consumption went from 122.9 MB to 122.8 MB.
+Total: 3.125000 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.674000 ms  DeleteObjects: 0.062900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194.654598 seconds.
+  path: Assets/FPS Icons Pack/Light Theme
+  artifactKey: Guid(b089d1bc8a8e6c5489b8374cd08b1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Icons Pack/Light Theme using Guid(b089d1bc8a8e6c5489b8374cd08b1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df109681ef631e0829a2b4961b98e2d') in 0.014319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040567 seconds.
+  path: Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png
+  artifactKey: Guid(5163ae49a0de665458bba61cd20c99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png using Guid(5163ae49a0de665458bba61cd20c99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504762a5e634da7658643dd26700a684') in 0.154377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png
+  artifactKey: Guid(6674e8c43c63e4f4184cbd009379498d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png using Guid(6674e8c43c63e4f4184cbd009379498d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce76fbab28d6ddfc0775c9d4598400a5') in 0.095803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.083304 seconds.
+  path: Assets/JellyIcons/128x128/BlueCircles/Materials
+  artifactKey: Guid(b62e011633302f846bb90cc01645ca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/BlueCircles/Materials using Guid(b62e011633302f846bb90cc01645ca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a9cc3082023ffb3d43acf59b9dc0bb') in 0.008979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026165 seconds.
+  path: Assets/JellyIcons/128x128/BlueCircles/Materials/BlueCircle.mat
+  artifactKey: Guid(44a1f6242b97d374190652c9cf13b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/BlueCircles/Materials/BlueCircle.mat using Guid(44a1f6242b97d374190652c9cf13b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d34222b31ac3439f6a7779e0cff5573') in 0.054678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.824884 seconds.
+  path: Assets/JellyIcons/256x256
+  artifactKey: Guid(7c95e8f2b758e5146899e721e5a2525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/256x256 using Guid(7c95e8f2b758e5146899e721e5a2525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e26d5beb5dfcbc38ec4f46449c93bd') in 0.006501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.424324 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles
+  artifactKey: Guid(8a67e5df1d262a8448ba5798ccb33a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles using Guid(8a67e5df1d262a8448ba5798ccb33a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0943406c917b3e0ffec364b811471bc') in 0.006624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034583 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircle.png
+  artifactKey: Guid(fc2a6c7a72f039e41a0b5801ead28e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircle.png using Guid(fc2a6c7a72f039e41a0b5801ead28e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5584177a11d89f3f1b2d4c19d829272c') in 0.016554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowRight.png
+  artifactKey: Guid(cdd398af21555494cb351c1a9614ebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowRight.png using Guid(cdd398af21555494cb351c1a9614ebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aacea8d96cc4e9d847a0b607e7dec02') in 0.017131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleFacebook.png
+  artifactKey: Guid(36c62514c657d384baeab90aa9e9d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleFacebook.png using Guid(36c62514c657d384baeab90aa9e9d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c7ccb87c257c9036a9cb1500e6c7d5') in 0.016381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleCup1.png
+  artifactKey: Guid(351d55ec742b07346a4543fa885e102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleCup1.png using Guid(351d55ec742b07346a4543fa885e102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b9b61b578ac959e9786c60fab8cdff') in 0.016875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCirclePlayLeft.png
+  artifactKey: Guid(a0b740136d2bd4b479bd3503452b32e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCirclePlayLeft.png using Guid(a0b740136d2bd4b479bd3503452b32e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1035c1f9c5db2d6cdbbe1716551887b') in 0.016998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleCamera.png
+  artifactKey: Guid(818be82b441da0549a3480e655345925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleCamera.png using Guid(818be82b441da0549a3480e655345925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c3f7ceee5b8df0562504f55ad4116a') in 0.016350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleRewind.png
+  artifactKey: Guid(7742b78305b902947aa12d8294b07284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleRewind.png using Guid(7742b78305b902947aa12d8294b07284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc6ef455e169d285da26522200e3938') in 0.016860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleCloud.png
+  artifactKey: Guid(a4514894918469e4e9fea5e3e3b02921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleCloud.png using Guid(a4514894918469e4e9fea5e3e3b02921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ff519585cd148f8f66b48ab65b520f') in 0.016443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleMinus.png
+  artifactKey: Guid(9130eac5d3bc9e443bb435b817f38ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleMinus.png using Guid(9130eac5d3bc9e443bb435b817f38ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b18bbfd1e588e7271ee473f59096d53') in 0.016622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleShop.png
+  artifactKey: Guid(245b7ea6a425aa942825b102d7cefe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleShop.png using Guid(245b7ea6a425aa942825b102d7cefe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3884c3f062f2e0c4c53f4a6097a1246b') in 0.017271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowTop.png
+  artifactKey: Guid(e51ba37dc514f33428eb3e76f98042ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowTop.png using Guid(e51ba37dc514f33428eb3e76f98042ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf5d4b34bf5bcc7dae83a70348178e0') in 0.018474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleStop.png
+  artifactKey: Guid(3e35c5fda3cc8f147b5a344c7f38ff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleStop.png using Guid(3e35c5fda3cc8f147b5a344c7f38ff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67435aa78c82c0f9b82fde8cb80e227c') in 0.018205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleUpload.png
+  artifactKey: Guid(64c2e9182b01f0c45b29dc6bbb2203e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleUpload.png using Guid(64c2e9182b01f0c45b29dc6bbb2203e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f8e69ced2465d00c54e1a495cef370') in 0.016741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleGear.png
+  artifactKey: Guid(1ec119273c5a60640bd609fc80c31efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleGear.png using Guid(1ec119273c5a60640bd609fc80c31efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb98f0430dd577609ffa451be460967') in 0.018689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleSoundOff.png
+  artifactKey: Guid(9793576321bdcdd429de828c608f6a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleSoundOff.png using Guid(9793576321bdcdd429de828c608f6a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c743dcb52437c11505f7ef15eb2b9e52') in 0.017671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleMenu2.png
+  artifactKey: Guid(f606bb1688c7010478510bfa7e3206b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleMenu2.png using Guid(f606bb1688c7010478510bfa7e3206b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ed060db0f2fdd643aaacca0c8ffa76') in 0.016970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleStars.png
+  artifactKey: Guid(dc84923430d4c504391b18a00ca41b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleStars.png using Guid(dc84923430d4c504391b18a00ca41b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2196014b49f5fbbd0d3a957a638bf2e6') in 0.017187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleDownloadLeft.png
+  artifactKey: Guid(fc5d54b515bc9c740aa7398ca714b4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleDownloadLeft.png using Guid(fc5d54b515bc9c740aa7398ca714b4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd68c81a6067dbdcc428c2cdac5c5e0') in 0.017046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCirclePlayRight.png
+  artifactKey: Guid(d0e19fc71c0ec144fadce234461c284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCirclePlayRight.png using Guid(d0e19fc71c0ec144fadce234461c284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4170c39acf6a56bb885cf135feafacb2') in 0.017768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleUnlock.png
+  artifactKey: Guid(a5b0e1798071fe147978a2d78eddbc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleUnlock.png using Guid(a5b0e1798071fe147978a2d78eddbc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157a09535028d3e99f4ad4eabc26aa14') in 0.018683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleVideocamera.png
+  artifactKey: Guid(3e119c2d8f4a77b43a3c68d9c39ed7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleVideocamera.png using Guid(3e119c2d8f4a77b43a3c68d9c39ed7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece3995fd9f46afb3c711ea5e84ac8ad') in 0.018756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleRewind2.png
+  artifactKey: Guid(9568b912863d862478ccc1e601358bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleRewind2.png using Guid(9568b912863d862478ccc1e601358bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b234fc09bb52e4de6b94dee71770875e') in 0.018572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleCup.png
+  artifactKey: Guid(e47d04ba39cf967488dd3586d565951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleCup.png using Guid(e47d04ba39cf967488dd3586d565951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d74972a659b784b0406304cf7c5b9e') in 0.017269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleDownload.png
+  artifactKey: Guid(2e93c658a9a9c8b4d8c614b7023c44b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleDownload.png using Guid(2e93c658a9a9c8b4d8c614b7023c44b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade748b93f8df3252580c679d51b1656') in 0.017742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleMusicOff.png
+  artifactKey: Guid(b92bb7fed07152b48b16d5eb040c3a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleMusicOff.png using Guid(b92bb7fed07152b48b16d5eb040c3a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec4a3b5e93f31b23b72310b68bb0ceb') in 0.017410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCirclePlus.png
+  artifactKey: Guid(7a99976b05f22d34488c715946bda8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCirclePlus.png using Guid(7a99976b05f22d34488c715946bda8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e691ba2bdcf604eef28fa068e68d4372') in 0.019182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleShare.png
+  artifactKey: Guid(fb125f9388254404590ae9c820644960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleShare.png using Guid(fb125f9388254404590ae9c820644960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1abfafdb7c8e12fbc576459f3e436d8') in 0.018642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleCup2.png
+  artifactKey: Guid(63a8743003217c947a95b3ec0fe91ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleCup2.png using Guid(63a8743003217c947a95b3ec0fe91ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9e68a0ad9c84320508f58e38f5194d') in 0.017042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleDownloadRight.png
+  artifactKey: Guid(de098c5e07e32e04ca161508af5e4b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleDownloadRight.png using Guid(de098c5e07e32e04ca161508af5e4b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81a624b3710b167566c796cc99e28a2') in 0.052282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleHome.png
+  artifactKey: Guid(d2d6dbd0bcf01924f8e0f6e6d253e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleHome.png using Guid(d2d6dbd0bcf01924f8e0f6e6d253e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34327f6777c4e3494e0927ea6ab12b76') in 0.017008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleDoubleArrow.png
+  artifactKey: Guid(78ade9308ba8b8441aef037b1e583e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleDoubleArrow.png using Guid(78ade9308ba8b8441aef037b1e583e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35bbdca0c1ef654b5fedd8409cc696d') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleMenu.png
+  artifactKey: Guid(3ab1dc358f8a0b74c9dfd7d74d76357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleMenu.png using Guid(3ab1dc358f8a0b74c9dfd7d74d76357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9619e6fd44c636a1cec23ca9eaf435') in 0.016804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleMusic.png
+  artifactKey: Guid(dbe4b0caa87bf694396bedc83f4a1603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleMusic.png using Guid(dbe4b0caa87bf694396bedc83f4a1603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26aa7e759021b1f9e99aaa664658806') in 0.016503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleDoubleArrowTop.png
+  artifactKey: Guid(bc2075ad6b229094d805c64ea1bead59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleDoubleArrowTop.png using Guid(bc2075ad6b229094d805c64ea1bead59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b9985e539ca7c9528d520f0e358878') in 0.016267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleInfo.png
+  artifactKey: Guid(1a40fd51d9688b8429d2aad423655ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleInfo.png using Guid(1a40fd51d9688b8429d2aad423655ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06ac46182f5785d02c9d15b22072adc') in 0.016096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleStat.png
+  artifactKey: Guid(7442dc2b216b12b408cea1d4a4bf97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleStat.png using Guid(7442dc2b216b12b408cea1d4a4bf97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f958573db8d86ffc6765d6c2070ab77') in 0.016204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowDown.png
+  artifactKey: Guid(61a463893d4270e43aa4436a8757d29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowDown.png using Guid(61a463893d4270e43aa4436a8757d29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de80a892c929674b0ad923b65aa61415') in 0.017140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleJoystick.png
+  artifactKey: Guid(818e5435630f59a49baa754c6186c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleJoystick.png using Guid(818e5435630f59a49baa754c6186c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2764b07cf6c082acb02ffd7162892951') in 0.016286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleQuestionMark.png
+  artifactKey: Guid(0c4df7ec754564e408a9d6596daefdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleQuestionMark.png using Guid(0c4df7ec754564e408a9d6596daefdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7f60e5e4a5bcac15574468345267a6') in 0.016618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleSound.png
+  artifactKey: Guid(1b9e0936377aeeb4cb425d6fabb4f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleSound.png using Guid(1b9e0936377aeeb4cb425d6fabb4f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961a4a7d42f6ad46a1fa386023481a93') in 0.016266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleCross.png
+  artifactKey: Guid(7957c5cd1ecd0f94e8e1d0284523a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleCross.png using Guid(7957c5cd1ecd0f94e8e1d0284523a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4d2bd6f176f349401439f973a3b6e1') in 0.016316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleTwitter.png
+  artifactKey: Guid(bb4375e5f4ec3c543bbeeb38cab61249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleTwitter.png using Guid(bb4375e5f4ec3c543bbeeb38cab61249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251e94f4b10b31ec80ff4fc76294acfa') in 0.016047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleConfirm.png
+  artifactKey: Guid(66e63479934121b41a2047c4459912bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleConfirm.png using Guid(66e63479934121b41a2047c4459912bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6de2d98ce615a5f4ce7e8d05885943') in 0.020282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleLadder.png
+  artifactKey: Guid(ab19dd181587cd14083d6504c35c0313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleLadder.png using Guid(ab19dd181587cd14083d6504c35c0313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d9ab009eadd6ab2b08b4124ceb7f09') in 0.017586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleVibration.png
+  artifactKey: Guid(24dc075d1c9ffc6449f941d980ae5e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleVibration.png using Guid(24dc075d1c9ffc6449f941d980ae5e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677d731dd0549cbc9d4dc1b904e7989f') in 0.018292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleQuit.png
+  artifactKey: Guid(b4d18751e46bdf04eaab7b035633f902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleQuit.png using Guid(b4d18751e46bdf04eaab7b035633f902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e9c5c26fadb7b16c268ffd96d484fe') in 0.017902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCirclePause.png
+  artifactKey: Guid(029ebee979c3fca429b4e878aa5c2eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCirclePause.png using Guid(029ebee979c3fca429b4e878aa5c2eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f5a126fe818e13e6bcbdc14718d1b5') in 0.016976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleStar.png
+  artifactKey: Guid(d457feb7a6a1aaa4789be9dad84c4e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleStar.png using Guid(d457feb7a6a1aaa4789be9dad84c4e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb3be290240d2fc5fd81e45b7302f77') in 0.018982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowLeft.png
+  artifactKey: Guid(4dcc52e704df87f40b9378dec13d948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleArrowLeft.png using Guid(4dcc52e704df87f40b9378dec13d948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77636ec9bed80c94512ce820eaaf54d') in 0.018516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JellyIcons/128x128/VioletCircles/VioletCircleLock.png
+  artifactKey: Guid(cf749508b301fe54395e56aedfaab473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/VioletCircles/VioletCircleLock.png using Guid(cf749508b301fe54395e56aedfaab473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb98c3003a5a9228a0421f1ef030ae4') in 0.019182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.519378 seconds.
+  path: Assets/JellyIcons/128x128/UI
+  artifactKey: Guid(a70f66b6634151f45b72a752ca3b49f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/UI using Guid(a70f66b6634151f45b72a752ca3b49f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4c47a392695daa1e36eae4abe02e2e') in 0.006200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021161 seconds.
+  path: Assets/JellyIcons/128x128/UI/BlueBox.png
+  artifactKey: Guid(fd0949b5ca888a14a8fe7cb2b20927c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/UI/BlueBox.png using Guid(fd0949b5ca888a14a8fe7cb2b20927c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b56e98b33ec9a114f5e25f3c03c5d9') in 0.015172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JellyIcons/128x128/UI/YellowBox.png
+  artifactKey: Guid(1b596037c9280ae409317707f31d1a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/UI/YellowBox.png using Guid(1b596037c9280ae409317707f31d1a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a6876ade75af9bee761c98482fde7a') in 0.016275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/UI/GreenBox.png
+  artifactKey: Guid(a771b8b6f18963348890d325c214ab65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/UI/GreenBox.png using Guid(a771b8b6f18963348890d325c214ab65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd79a31c192019562ee5e70894dccd7') in 0.016508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JellyIcons/128x128/UI/RedBox.png
+  artifactKey: Guid(12aa1fd28f4cd5443bb8e62356f2e206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/UI/RedBox.png using Guid(12aa1fd28f4cd5443bb8e62356f2e206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacfdc8620998415e2ffef8bea2ee106') in 0.015997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JellyIcons/128x128/UI/VioletBox.png
+  artifactKey: Guid(3acb5173b7ce5e442a396fa50dc6c20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/UI/VioletBox.png using Guid(3acb5173b7ce5e442a396fa50dc6c20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452719e965d3376f0bbee6d69b196e9a') in 0.017286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JellyIcons/128x128/UI/GreyBox.png
+  artifactKey: Guid(ffbcfdfdf70dd8945b1bf9b38f379a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JellyIcons/128x128/UI/GreyBox.png using Guid(ffbcfdfdf70dd8945b1bf9b38f379a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b86adb9399666c2bffd607e5081bdb0') in 0.018610 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.134 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.7 KB). Loaded Objects now: 4017.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 3.249700 ms (FindLiveObjects: 0.308900 ms CreateObjectMapping: 0.182900 ms MarkObjects: 2.665100 ms  DeleteObjects: 0.091700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007112 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1095ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.7 KB). Loaded Objects now: 4020.
+Memory consumption went from 123.4 MB to 123.4 MB.
+Total: 3.769600 ms (FindLiveObjects: 0.311200 ms CreateObjectMapping: 0.208400 ms MarkObjects: 3.170300 ms  DeleteObjects: 0.078500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 431.166968 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/BloodParticleA.mat
+  artifactKey: Guid(94a55713ee628a245a74794f36a1b6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/BloodParticleA.mat using Guid(94a55713ee628a245a74794f36a1b6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8928a7fcdcf2cc949d9bbff0364f7d') in 0.195042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/BloodParticleC.mat
+  artifactKey: Guid(1226a3e53649e09428c4c0cf03714527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/BloodParticleC.mat using Guid(1226a3e53649e09428c4c0cf03714527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a35b7268501cd8b61ed0327633ec22') in 0.013385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Materials/Brains_Material.mat
+  artifactKey: Guid(53bcb426812ccb244ac869c8d55fcc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Materials/Brains_Material.mat using Guid(53bcb426812ccb244ac869c8d55fcc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f15efa4d5a9c22250606aeac0c6969e') in 0.302524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/BloodParticleB.mat
+  artifactKey: Guid(372655694a62c8f4cba7e4a00bda0cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/BloodParticleB.mat using Guid(372655694a62c8f4cba7e4a00bda0cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279875bf59e229505faec22350f7f146') in 0.012715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.807213 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 03/Materials/Bricks Texture 03 diffuse.mat
+  artifactKey: Guid(8b7c7d830bcbe3d4f9de49974b7487c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 03/Materials/Bricks Texture 03 diffuse.mat using Guid(8b7c7d830bcbe3d4f9de49974b7487c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e607cd862aaa95d957203411ea1ebba8') in 0.017087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476649 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 06/Materials/Bricks Texture 06 diffuse.mat
+  artifactKey: Guid(b22533c1bee0c3343bc63b1d8be96aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 06/Materials/Bricks Texture 06 diffuse.mat using Guid(b22533c1bee0c3343bc63b1d8be96aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ca4f18a6c520228d1a366c2f16a881') in 0.017124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351974 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 08/Bricks Texture 08.mat
+  artifactKey: Guid(e7d5d468af64aeb468a8270f17eb70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 08/Bricks Texture 08.mat using Guid(e7d5d468af64aeb468a8270f17eb70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091007d0f15e93d08906cbc28d16c7c4') in 0.014850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 09/Bricks Texture 09.mat
+  artifactKey: Guid(7e4ada474f6c80f4eb95afd0ca42b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 09/Bricks Texture 09.mat using Guid(7e4ada474f6c80f4eb95afd0ca42b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e47be19c71ceac7b08ed5c66de6f47f') in 0.019064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 12/Bricks Texture 12.mat
+  artifactKey: Guid(9a95f6c7792603140acfbae1c4c6b518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 12/Bricks Texture 12.mat using Guid(9a95f6c7792603140acfbae1c4c6b518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ed46538ce5cf91ce445e558b59529a') in 0.015182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 13/Bricks Texture 13.mat
+  artifactKey: Guid(27ba617c1a0aa1d4aab55be4bba5c52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 13/Bricks Texture 13.mat using Guid(27ba617c1a0aa1d4aab55be4bba5c52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954d14f85a6ab78e07b1f2ed1e6851f2') in 0.015864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 11/Bricks Texture 11.mat
+  artifactKey: Guid(140351e8707214947918f565436fb855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 11/Bricks Texture 11.mat using Guid(140351e8707214947918f565436fb855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8766cbdf74255827025e73d8467a3a') in 0.017511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 15/Bricks Texture 15.mat
+  artifactKey: Guid(ce05dc3df6ec90a499ab3989cccac88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 15/Bricks Texture 15.mat using Guid(ce05dc3df6ec90a499ab3989cccac88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656b078b90d7c5d0d2b208fb89e7369d') in 0.013816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 10/Bricks Texture 10.mat
+  artifactKey: Guid(640034aa2b0f0684a81eb9b3a10b9c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 10/Bricks Texture 10.mat using Guid(640034aa2b0f0684a81eb9b3a10b9c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de12a03b18a9c631a57c4b189cf3f2ec') in 0.016178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Original Bricks Textures/Bricks Texture 14/Bricks Texture 14.mat
+  artifactKey: Guid(6f521a41c03e6f7449d3f1a9e023bf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Original Bricks Textures/Bricks Texture 14/Bricks Texture 14.mat using Guid(6f521a41c03e6f7449d3f1a9e023bf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09785f0fbeb3f35db5a3e2aadde9e567') in 0.017786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155196 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/GreyscaleParticleA.mat
+  artifactKey: Guid(c999c2443197c6a47b9521be92b71c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/GreyscaleParticleA.mat using Guid(c999c2443197c6a47b9521be92b71c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e1ecec3b5beaac95e6bb426fd08962') in 0.021811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/GreyscaleParticleB.mat
+  artifactKey: Guid(690c48dc9c0f6924aab75be8de531f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/GreyscaleParticleB.mat using Guid(690c48dc9c0f6924aab75be8de531f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428627cbc7316cdb973a91d912959ac1') in 0.012990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/GreyscaleParticleC.mat
+  artifactKey: Guid(dc45b722b7634214a9d664f8971d634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Materials/GreyscaleParticleC.mat using Guid(dc45b722b7634214a9d664f8971d634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddf495da4b0d7b96d9256b757cd693d') in 0.019384 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006712 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1214ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.7 KB). Loaded Objects now: 4026.
+Memory consumption went from 123.9 MB to 123.8 MB.
+Total: 3.522000 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.392500 ms MarkObjects: 2.690800 ms  DeleteObjects: 0.090600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 239.771091 seconds.
+  path: Assets/healthBar.cs
+  artifactKey: Guid(b6e7c5bc53ff634479d9a89096c98430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/healthBar.cs using Guid(b6e7c5bc53ff634479d9a89096c98430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f17e7e101b2c2705217447c1bb15fb0') in 0.013579 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007044 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (50.8 KB). Loaded Objects now: 4028.
+Memory consumption went from 123.9 MB to 123.8 MB.
+Total: 3.028700 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.165000 ms MarkObjects: 2.540700 ms  DeleteObjects: 0.067300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006980 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1119ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.8 KB). Loaded Objects now: 4031.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 4.219700 ms (FindLiveObjects: 0.249000 ms CreateObjectMapping: 0.136900 ms MarkObjects: 3.750400 ms  DeleteObjects: 0.082400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.6 KB). Loaded Objects now: 4034.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 2.876500 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.288000 ms MarkObjects: 2.196900 ms  DeleteObjects: 0.066500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006953 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.7 KB). Loaded Objects now: 4038.
+Memory consumption went from 124.0 MB to 124.0 MB.
+Total: 2.841600 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.169400 ms MarkObjects: 2.350700 ms  DeleteObjects: 0.058200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 244.389621 seconds.
+  path: Assets/Player.cs
+  artifactKey: Guid(1e602d8696c5ab04c9d572062833f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.cs using Guid(1e602d8696c5ab04c9d572062833f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34833404980b6bfe2b4a14fa9b1484f7') in 0.010010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.971147 seconds.
+  path: Assets/Player.cs
+  artifactKey: Guid(1e602d8696c5ab04c9d572062833f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.cs using Guid(1e602d8696c5ab04c9d572062833f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6680e596abfe8e5c428d7c946a53154d') in 0.002530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.009185 seconds.
+  path: Assets/Player.cs
+  artifactKey: Guid(1e602d8696c5ab04c9d572062833f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.cs using Guid(1e602d8696c5ab04c9d572062833f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1310fe546d86242372bf0ced1e4bf0ef') in 0.002515 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007294 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.7 KB). Loaded Objects now: 4041.
+Memory consumption went from 124.0 MB to 124.0 MB.
+Total: 2.707000 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.148600 ms MarkObjects: 2.233300 ms  DeleteObjects: 0.072100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008987 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.7 KB). Loaded Objects now: 4044.
+Memory consumption went from 124.0 MB to 124.0 MB.
+Total: 3.981500 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.303200 ms MarkObjects: 3.253200 ms  DeleteObjects: 0.077400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\faisa\Game Jam\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.7 KB). Loaded Objects now: 4047.
+Memory consumption went from 124.0 MB to 124.0 MB.
+Total: 3.141200 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.184500 ms MarkObjects: 2.622600 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
